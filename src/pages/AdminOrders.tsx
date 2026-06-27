@@ -347,7 +347,7 @@ const AdminOrders = () => {
                         <div className="flex items-start gap-2">
                           <MapPin className="w-4 h-4 text-muted-foreground mt-0.5" />
                           <div className="text-sm">
-                            <p>{order.shipping_address}</p>
+                            <p className="whitespace-pre-line">{order.shipping_address}</p>
                             <p>{order.city}, {order.state} - {order.pincode}</p>
                           </div>
                         </div>

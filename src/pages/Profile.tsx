@@ -342,7 +342,7 @@ const Profile = () => {
                           </h4>
                           <div className="text-sm space-y-1 p-3 bg-muted/50 rounded-lg">
                             <p className="font-medium">{order.customer_name}</p>
-                            <p className="text-muted-foreground">{order.shipping_address}</p>
+                            <p className="text-muted-foreground whitespace-pre-line">{order.shipping_address}</p>
                             <p className="text-muted-foreground">{order.city}, {order.state} - {order.pincode}</p>
                             <div className="flex items-center gap-2 pt-2">
                               <Phone className="w-3 h-3" />

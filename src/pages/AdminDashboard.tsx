@@ -916,7 +916,7 @@ const AdminDashboard = () => {
 
               <div>
                 <h4 className="font-semibold text-sm text-gray-500 mb-2">Shipping Address</h4>
-                <p className="text-sm bg-slate-50 p-2 rounded">{selectedOrder.shipping_address}, {selectedOrder.city}, {selectedOrder.state} - {selectedOrder.pincode}</p>
+                <p className="text-sm bg-slate-50 p-2 rounded whitespace-pre-line">{selectedOrder.shipping_address}, {selectedOrder.city}, {selectedOrder.state} - {selectedOrder.pincode}</p>
               </div>
 
               {/* Items would go here if available in the fetched object, but recentOrders query uses specific columns. 

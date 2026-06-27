@@ -93,15 +93,7 @@ const Navbar = () => {
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
             </NavLink>
             <NavLink to="/shop" className="text-foreground hover:text-primary transition-all duration-300 font-medium relative group">
-              Shop
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
-            </NavLink>
-            <NavLink to="/combos" className="text-foreground hover:text-primary transition-all duration-300 font-medium relative group">
-              Combos
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
-            </NavLink>
-            <NavLink to="/offers" className="text-foreground hover:text-primary transition-all duration-300 font-medium relative group">
-              Offers
+              Products
               <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary group-hover:w-full transition-all duration-300" />
             </NavLink>
             <NavLink to="/safety" className="text-foreground hover:text-primary transition-all duration-300 font-medium relative group">
@@ -217,13 +209,7 @@ const Navbar = () => {
               Home
             </NavLink>
             <NavLink to="/shop" className="block py-2 text-foreground hover:text-primary transition-colors font-medium">
-              Shop
-            </NavLink>
-            <NavLink to="/combos" className="block py-2 text-foreground hover:text-primary transition-colors font-medium">
-              Combos
-            </NavLink>
-            <NavLink to="/offers" className="block py-2 text-foreground hover:text-primary transition-colors font-medium">
-              Offers
+              Products
             </NavLink>
             <NavLink to="/safety" className="block py-2 text-foreground hover:text-primary transition-colors font-medium">
               Safety
